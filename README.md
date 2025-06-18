@@ -66,13 +66,15 @@ Summary: Ultralytics YOLO 🚀 for SOTA object detection, multi-object tracking,
 ```
 
 Overview :
-├── blind.py
+```
+├── blind.py         # final model code
 ├── lowlight_test.py # testing code
 ├── lowlight_train.py # training code
 ├── model.py # Zero-DEC network
 ├── dataloader.py
 ├── snapshots
 │   ├── Epoch99.pth #  A pre-trained snapshot (Epoch99.pth)
+```
 ```
 ### Test: 
 
