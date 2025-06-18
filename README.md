@@ -22,7 +22,8 @@ improve their independence and quality of life. */
 # Pytorch 
 Pytorch implementation of  Real-Time Assistive Vision
 
-## Requirements
+# Requirements
+```
 Name: streamlit
 Version: 1.45.1
 Summary: A faster way to build and share data apps
@@ -61,6 +62,8 @@ Summary: Python Wrapper for Intel Realsense SDK 2.0.
 Name: ultralytics
 Version: 8.3.146
 Summary: Ultralytics YOLO 🚀 for SOTA object detection, multi-object tracking, instance segmentation, pose estimation and image classification.
+
+```
 
 Overview :
 ├── blind.py
