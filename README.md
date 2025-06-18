@@ -26,91 +26,43 @@ Pytorch implementation of  Real-Time Assistive Vision
 Name: streamlit
 Version: 1.45.1
 Summary: A faster way to build and share data apps
-Home-page: https://streamlit.io
-Author: Snowflake Inc
-Author-email: hello@streamlit.io
-License: Apache License 2.0
-Location: c:\users\indiaai data lab\new_project_gpu\pyrealsense\venv310\lib\site-packages
 Requires: altair, blinker, cachetools, click, gitpython, numpy, packaging, pandas, pillow, protobuf, pyarrow, pydeck, requests, tenacity, toml, tornado, typing-extensions, watchdog
 Required-by: streamlit-webrtc
 ---
 Name: torch
 Version: 2.7.0+cu126
 Summary: Tensors and Dynamic neural networks in Python with strong GPU acceleration
-Home-page: https://pytorch.org/
-Author: PyTorch Team
-Author-email: packages@pytorch.org
-License: BSD-3-Clause
-Location: c:\users\indiaai data lab\new_project_gpu\pyrealsense\venv310\lib\site-packages
 Requires: filelock, fsspec, jinja2, networkx, sympy, typing-extensions
 Required-by: encodec, torchaudio, torchvision, trainer, TTS, ultralytics, ultralytics-thop
 ---
 Name: torchvision
 Version: 0.22.0+cu126
 Summary: image and video datasets and models for torch deep learning
-Home-page: https://github.com/pytorch/vision
-Author: PyTorch Core Team
-Author-email: soumith@pytorch.org
-License: BSD
-Location: c:\users\indiaai data lab\new_project_gpu\pyrealsense\venv310\lib\site-packages
 Requires: numpy, pillow, torch
 Required-by: ultralytics
 ---
 Name: pillow
 Version: 11.0.0
 Summary: Python Imaging Library (Fork)
-Home-page:
-Author:
-Author-email: "Jeffrey A. Clark" <aclark@aclark.net>
-License: MIT-CMU
-Location: c:\users\indiaai data lab\new_project_gpu\pyrealsense\venv310\lib\site-packages
-Requires:
 Required-by: imageio, matplotlib, scikit-image, streamlit, torchvision, ultralytics
 ---
 Name: gTTS
 Version: 2.5.4
 Summary: gTTS (Google Text-to-Speech), a Python library and CLI tool to interface with Google Translate text-to-speech API
-Home-page:
-Author:
-Author-email: Pierre Nicolas Durette <pndurette@gmail.com>
-License: MIT
-Location: c:\users\indiaai data lab\new_project_gpu\pyrealsense\venv310\lib\site-packages
-Requires: click, requests
-Required-by:
 ---
 Name: opencv-python
 Version: 4.11.0.86
 Summary: Wrapper package for OpenCV python bindings.
-Home-page: https://github.com/opencv/opencv-python
-Author: 
-Author-email:
-License: Apache 2.0
-Location: c:\users\indiaai data lab\new_project_gpu\pyrealsense\venv310\lib\site-packages
-Requires: numpy, numpy, numpy, numpy
-Required-by: ultralytics
 ---
 Name: pyrealsense2
 Version: 2.55.1.6486
 Summary: Python Wrapper for Intel Realsense SDK 2.0.
-Home-page: https://github.com/IntelRealSense/librealsense
-Author: Intel(R) RealSense(TM)
-Author-email: realsense@intel.com
-License: Apache License, Version 2.0
-Location: c:\users\indiaai data lab\new_project_gpu\pyrealsense\venv310\lib\site-packages
-Requires:
-Required-by:
 ---
 Name: ultralytics
 Version: 8.3.146
 Summary: Ultralytics YOLO 🚀 for SOTA object detection, multi-object tracking, instance segmentation, pose estimation and image classification.
-Home-page:
-Author:
-Author-email: Glenn Jocher <glenn.jocher@ultralytics.com>, Jing Qiu <jing.qiu@ultralytics.com>
-License: AGPL-3.0
 
-
-
-
+Overview :
 ├── blind.py
 ├── lowlight_test.py # testing code
 ├── lowlight_train.py # training code
