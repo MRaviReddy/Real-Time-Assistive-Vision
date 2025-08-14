@@ -17,13 +17,19 @@ import threading
 import queue
 from playsound import playsound
 import os
-
+import json
 
 # Thread-safe audio queue
 audio_queue = queue.Queue()
 
+@st.cache_data
+def load_label_translations():
+    with open("coco_label_translations_full.json", "r", encoding="utf-8") as f:
+        return json.load(f)
 
-COCO_INSTANCE_CATEGORY_NAMES = [ 
+LABEL_TRANSLATIONS = load_label_translations()
+
+COCO_INSTANCE_CATEGORY_NAMES = [
     '__background__', 'person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus',
     'train', 'truck', 'boat', 'traffic light', 'fire hydrant', 'N/A', 'stop sign',
     'parking meter', 'bench', 'bird', 'cat', 'dog', 'horse', 'sheep', 'cow',
@@ -38,6 +44,11 @@ COCO_INSTANCE_CATEGORY_NAMES = [
     'oven', 'toaster', 'sink', 'refrigerator', 'N/A', 'book', 'clock', 'vase',
     'scissors', 'teddy bear', 'hair drier', 'toothbrush'
 ]
+
+def translate_label(label, lang):
+    return LABEL_TRANSLATIONS.get(label, {}).get(lang, label)
+
+
 
 @st.cache_resource
 def load_yolo():
@@ -99,10 +110,12 @@ if 'audio_data' not in st.session_state:
 if 'last_labels' not in st.session_state:
     st.session_state['last_labels'] = set()
 
+# Modify your existing generate_speech function to use translated labels:
 def generate_speech(labels, lang='en'):
     if not labels:
         return None
-    object_list = ", ".join(labels)
+    translated_labels = [translate_label(label, lang) for label in labels]
+    object_list = ", ".join(translated_labels)
     text = {
         "en": f"The detected objects are {object_list}.",
         "hi": f"पता चले वस्तुएं हैं: {object_list}.",
@@ -214,7 +227,7 @@ def run_video_stream_cv(cap, enhancer, yolo_model, frcnn_model, device, lang):
     cap.release()
 
 st.set_page_config(page_title="Assistive Vision System", layout="wide")
-st.title("🎥 Real-Time Assistive Vision (RealSense or Video Upload)")
+st.title("Real Time Assistive Technology for BVI Individual")
 language = st.selectbox("🗣️ Select language", ["en", "hi", "te", "kn", "de", "es"])
 video_upload = st.file_uploader("🎼 Upload a video if RealSense is not available", type=["mp4", "avi", "mov"])
 if st.button("🔴 Start Assistive Vision"):
@@ -229,7 +242,7 @@ if st.button("🔴 Start Assistive Vision"):
     try:
         profile = pipeline.start(config)
         time.sleep(1)
-        st.success("✅ RealSense camera initialized.")
+        st.success("✅ camera initialized.")
         run_video_stream_realsense(pipeline, enhancer, yolo_model, frcnn_model, device, language)
     except Exception as e:
         st.warning(f"⚠️ RealSense failed: {e}")
