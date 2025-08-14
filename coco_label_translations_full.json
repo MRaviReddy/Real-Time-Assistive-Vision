@@ -1,0 +1,548 @@
+{
+  "person": {
+    "hi": "व्यक्ति",
+    "te": "వ్యక్తి",
+    "kn": "ವ್ಯಕ್ತಿ",
+    "de": "Person",
+    "es": "persona"
+  },
+  "bicycle": {
+    "hi": "साइकिल",
+    "te": "సైకిల్",
+    "kn": "ಸೈಕಲ್",
+    "de": "Fahrrad",
+    "es": "bicicleta"
+  },
+  "car": {
+    "hi": "कार",
+    "te": "కారు",
+    "kn": "ಕಾರ್",
+    "de": "Auto",
+    "es": "coche"
+  },
+  "motorcycle": {
+    "hi": "मोटरसाइकिल",
+    "te": "మోటార్ సైకిల్",
+    "kn": "ಮೋಟಾರ್ ಸೈಕಲ್",
+    "de": "Motorrad",
+    "es": "motocicleta"
+  },
+  "airplane": {
+    "hi": "विमान",
+    "te": "విమానము",
+    "kn": "ವಿಮಾನ",
+    "de": "Flugzeug",
+    "es": "avión"
+  },
+  "bus": {
+    "hi": "बस",
+    "te": "బస్సు",
+    "kn": "ಬಸ್",
+    "de": "Bus",
+    "es": "autobús"
+  },
+  "train": {
+    "hi": "रेलगाड़ी",
+    "te": "రైలు",
+    "kn": "ರೇಲು",
+    "de": "Zug",
+    "es": "tren"
+  },
+  "truck": {
+    "hi": "ट्रक",
+    "te": "ట్రక్",
+    "kn": "ಟ್ರಕ್",
+    "de": "LKW",
+    "es": "camión"
+  },
+  "boat": {
+    "hi": "नाव",
+    "te": "బోటు",
+    "kn": "ದೋಣಿ",
+    "de": "Boot",
+    "es": "barco"
+  },
+  "traffic light": {
+    "hi": "ट्रैफिक लाइट",
+    "te": "ట్రాఫిక్ లైట్",
+    "kn": "ಟ್ರಾಫಿಕ್ ಲೈಟ್",
+    "de": "Ampel",
+    "es": "semáforo"
+  },
+  "fire hydrant": {
+    "hi": "अग्निशामक यंत्र",
+    "te": "ఫైర్ హైడ్రెంట్",
+    "kn": "ಅಗ್ನಿಶಾಮಕ ಯಂತ್ರ",
+    "de": "Hydrant",
+    "es": "hidrante"
+  },
+  "stop sign": {
+    "hi": "रुकिए संकेत",
+    "te": "ఆగండి గుర్తు",
+    "kn": "ನಿಲ್ಲಿಸಿ ಗುರುತು",
+    "de": "Stoppschild",
+    "es": "señal de alto"
+  },
+  "parking meter": {
+    "hi": "पार्किंग मीटर",
+    "te": "పార్కింగ్ మీటర్",
+    "kn": "ಪಾರ್ಕಿಂಗ್ ಮೀಟರ್",
+    "de": "Parkuhr",
+    "es": "parquímetro"
+  },
+  "bench": {
+    "hi": "बेंच",
+    "te": "బెంచ్",
+    "kn": "ಬೆಂಚ್",
+    "de": "Bank",
+    "es": "banco"
+  },
+  "bird": {
+    "hi": "पक्षी",
+    "te": "పక్షి",
+    "kn": "ಪಕ್ಷಿ",
+    "de": "Vogel",
+    "es": "pájaro"
+  },
+  "cat": {
+    "hi": "बिल्ली",
+    "te": "పిల్లి",
+    "kn": "ಬೆಕ್ಕು",
+    "de": "Katze",
+    "es": "gato"
+  },
+  "dog": {
+    "hi": "कुत्ता",
+    "te": "కుక్క",
+    "kn": "ನಾಯಿ",
+    "de": "Hund",
+    "es": "perro"
+  },
+  "horse": {
+    "hi": "घोड़ा",
+    "te": "గుర్రం",
+    "kn": "ಕುದುರೆ",
+    "de": "Pferd",
+    "es": "caballo"
+  },
+  "sheep": {
+    "hi": "भेड़",
+    "te": "గొర్రె",
+    "kn": "ಹೆಣ್ಣು ಕುರಿ",
+    "de": "Schaf",
+    "es": "oveja"
+  },
+  "cow": {
+    "hi": "गाय",
+    "te": "ఆవు",
+    "kn": "ಹಸು",
+    "de": "Kuh",
+    "es": "vaca"
+  },
+  "elephant": {
+    "hi": "हाथी",
+    "te": "ఏనుగు",
+    "kn": "ಆನೆ",
+    "de": "Elefant",
+    "es": "elefante"
+  },
+  "bear": {
+    "hi": "भालू",
+    "te": "ఎలుగుబంటి",
+    "kn": "ಕರಡಿ",
+    "de": "Bär",
+    "es": "oso"
+  },
+  "zebra": {
+    "hi": "ज़ेबरा",
+    "te": "జెబ్రా",
+    "kn": "ಜೆಬ್ರಾ",
+    "de": "Zebra",
+    "es": "cebra"
+  },
+  "giraffe": {
+    "hi": "जिराफ़",
+    "te": "జిరాఫ్",
+    "kn": "ಜಿರಾಫ್",
+    "de": "Giraffe",
+    "es": "jirafa"
+  },
+  "backpack": {
+    "hi": "बैकपैक",
+    "te": "బ్యాక్‌ప్యాక్",
+    "kn": "ಹಿಂದಿನ ಚೀಲ",
+    "de": "Rucksack",
+    "es": "mochila"
+  },
+  "umbrella": {
+    "hi": "छाता",
+    "te": "ఛత్రం",
+    "kn": "ಛತ್ರಿ",
+    "de": "Regenschirm",
+    "es": "paraguas"
+  },
+  "handbag": {
+    "hi": "हैंडबैग",
+    "te": "హ్యాండ్బ్యాగ్",
+    "kn": "ಹ್ಯಾಂಡ್ಬ್ಯಾಗ್",
+    "de": "Handtasche",
+    "es": "bolso"
+  },
+  "tie": {
+    "hi": "टाई",
+    "te": "టై",
+    "kn": "ಟೈ",
+    "de": "Krawatte",
+    "es": "corbata"
+  },
+  "suitcase": {
+    "hi": "सूटकेस",
+    "te": "సూట్‌కేస్",
+    "kn": "ಸೂಟ್‌ಕೆಸ್",
+    "de": "Koffer",
+    "es": "maleta"
+  },
+  "frisbee": {
+    "hi": "फ्रिसबी",
+    "te": "ఫ్రిస్బీ",
+    "kn": "ಫ್ರಿಸ್ಬಿ",
+    "de": "Frisbee",
+    "es": "frisbi"
+  },
+  "skis": {
+    "hi": "स्की",
+    "te": "స్కీలు",
+    "kn": "ಸ್ಕೀಗಳು",
+    "de": "Ski",
+    "es": "esquís"
+  },
+  "snowboard": {
+    "hi": "स्नोबोर्ड",
+    "te": "స్నోబోర్డ్",
+    "kn": "ಸ್ನೋಬೋರ್ಡ್",
+    "de": "Snowboard",
+    "es": "snowboard"
+  },
+  "sports ball": {
+    "hi": "खेल की गेंद",
+    "te": "క్రీడా బంతి",
+    "kn": "ಕ್ರೀಡೆ ಬಾಲ್",
+    "de": "Sportball",
+    "es": "pelota deportiva"
+  },
+  "kite": {
+    "hi": "पतंग",
+    "te": "గాలిపటం",
+    "kn": "ಹಕ್ಕಿ",
+    "de": "Drachen",
+    "es": "cometa"
+  },
+  "baseball bat": {
+    "hi": "बेसबॉल बैट",
+    "te": "బేస్‌బాల్ బ్యాట్",
+    "kn": "ಬೇಸ್ಬಾಲ್ ಬ್ಯಾಟ್",
+    "de": "Baseballschläger",
+    "es": "bate de béisbol"
+  },
+  "baseball glove": {
+    "hi": "बेसबॉल दस्ताना",
+    "te": "బేస్‌బాల్ గ్లోవ్",
+    "kn": "ಬೇಸ್ಬಾಲ್ ಕೈಮಳೆ",
+    "de": "Baseballhandschuh",
+    "es": "guante de béisbol"
+  },
+  "skateboard": {
+    "hi": "स्केटबोर्ड",
+    "te": "స్కేట్‌బోర్డ్",
+    "kn": "ಸ್ಕೇಟ್‌ಬೋರ್ಡ್",
+    "de": "Skateboard",
+    "es": "monopatín"
+  },
+  "surfboard": {
+    "hi": "सर्फ़बोर्ड",
+    "te": "సర్ఫ్‌బోర్డ్",
+    "kn": "ಸರ್ಫ್‌ಬೋರ್ಡ್",
+    "de": "Surfbrett",
+    "es": "tabla de surf"
+  },
+  "tennis racket": {
+    "hi": "टेनिस रैकेट",
+    "te": "టెన్నిస్ రాకెట్",
+    "kn": "ಟೆನಿಸ್ ರಾಕೆಟ್",
+    "de": "Tennisschläger",
+    "es": "raqueta de tenis"
+  },
+  "bottle": {
+    "hi": "बोतल",
+    "te": "సీసా",
+    "kn": "ಬಾಟಲ್",
+    "de": "Flasche",
+    "es": "botella"
+  },
+  "wine glass": {
+    "hi": "शराब का गिलास",
+    "te": "వైన్ గ్లాస్",
+    "kn": "ವೈನ್ ಗ್ಲಾಸ್",
+    "de": "Weinglas",
+    "es": "copa de vino"
+  },
+  "cup": {
+    "hi": "कप",
+    "te": "కప్పు",
+    "kn": "ಕಪ್",
+    "de": "Tasse",
+    "es": "taza"
+  },
+  "fork": {
+    "hi": "कांटा",
+    "te": "ఫోర్క్",
+    "kn": "ಫೋರ್ಕ್",
+    "de": "Gabel",
+    "es": "tenedor"
+  },
+  "knife": {
+    "hi": "चाकू",
+    "te": "కత్తి",
+    "kn": "ಚಾಕು",
+    "de": "Messer",
+    "es": "cuchillo"
+  },
+  "spoon": {
+    "hi": "चम्मच",
+    "te": "స్పూన్",
+    "kn": "ಸ್ಪೂನ್",
+    "de": "Löffel",
+    "es": "cuchara"
+  },
+  "bowl": {
+    "hi": "कटोरा",
+    "te": "గిన్నె",
+    "kn": "ಗಡಸುಗ",
+    "de": "Schüssel",
+    "es": "tazón"
+  },
+  "banana": {
+    "hi": "केला",
+    "te": "అరటి",
+    "kn": "ಬಾಳೆಹಣ್ಣು",
+    "de": "Banane",
+    "es": "plátano"
+  },
+  "apple": {
+    "hi": "सेब",
+    "te": "ఆపిల్",
+    "kn": "ಸೇಬು",
+    "de": "Apfel",
+    "es": "manzana"
+  },
+  "sandwich": {
+    "hi": "सैंडविच",
+    "te": "సాండ్విచ్",
+    "kn": "ಸ್ಯಾಂಡ್‌ವಿಚ್",
+    "de": "Sandwich",
+    "es": "sándwich"
+  },
+  "orange": {
+    "hi": "संतरा",
+    "te": "నారింజ",
+    "kn": "ಕಿತ್ತಳೆ",
+    "de": "Orange",
+    "es": "naranja"
+  },
+  "broccoli": {
+    "hi": "ब्रोकोली",
+    "te": "బ్రోకలీ",
+    "kn": "ಬ್ರೋಕೊಲಿ",
+    "de": "Brokkoli",
+    "es": "brócoli"
+  },
+  "carrot": {
+    "hi": "गाजर",
+    "te": "కారెట్",
+    "kn": "ಕ್ಯಾರೆಟ್",
+    "de": "Karotte",
+    "es": "zanahoria"
+  },
+  "hot dog": {
+    "hi": "हॉट डॉग",
+    "te": "హాట్ డాగ్",
+    "kn": "ಹಾಟ್‌ಡಾಗ್",
+    "de": "Hotdog",
+    "es": "perrito caliente"
+  },
+  "pizza": {
+    "hi": "पिज़्ज़ा",
+    "te": "పిజ్జా",
+    "kn": "ಪಿಜ್ಜಾ",
+    "de": "Pizza",
+    "es": "pizza"
+  },
+  "donut": {
+    "hi": "डोनट",
+    "te": "డోనట్",
+    "kn": "ಡೋನಟ್",
+    "de": "Donut",
+    "es": "dona"
+  },
+  "cake": {
+    "hi": "केक",
+    "te": "కేక్",
+    "kn": "ಕೇಕ್",
+    "de": "Kuchen",
+    "es": "pastel"
+  },
+  "couch": {
+    "hi": "सोफ़ा",
+    "te": "సోఫా",
+    "kn": "ಸೋಫಾ",
+    "de": "Sofa",
+    "es": "sofá"
+  },
+  "potted plant": {
+    "hi": "गमले वाला पौधा",
+    "te": "పొట్లలో మొక్క",
+    "kn": "ಮಡಿಕೆ ಗಿಡ",
+    "de": "Topfpflanze",
+    "es": "planta en maceta"
+  },
+  "bed": {
+    "hi": "बिस्तर",
+    "te": "కోట",
+    "kn": "ಹಾಸಿಗೆ",
+    "de": "Bett",
+    "es": "cama"
+  },
+  "dining table": {
+    "hi": "भोजन की मेज",
+    "te": "భోజన పట్టిక",
+    "kn": "ಊಟದ ಮೇಜು",
+    "de": "Esstisch",
+    "es": "mesa de comedor"
+  },
+  "toilet": {
+    "hi": "शौचालय",
+    "te": "మలమూత్రాలగది",
+    "kn": "ಶೌಚಾಲಯ",
+    "de": "Toilette",
+    "es": "inodoro"
+  },
+  "tv": {
+    "hi": "टीवी",
+    "te": "టీవీ",
+    "kn": "ಟಿವಿ",
+    "de": "Fernseher",
+    "es": "televisor"
+  },
+  "mouse": {
+    "hi": "माउस",
+    "te": "మౌస్",
+    "kn": "ಮೌಸ್",
+    "de": "Maus",
+    "es": "ratón"
+  },
+  "remote": {
+    "hi": "रिमोट",
+    "te": "రిమోట్",
+    "kn": "ರಿಮೋಟ್",
+    "de": "Fernbedienung",
+    "es": "control remoto"
+  },
+  "keyboard": {
+    "hi": "कीबोर्ड",
+    "te": "కీబోర్డ్",
+    "kn": "ಕೀಬೋರ್ಡ್",
+    "de": "Tastatur",
+    "es": "teclado"
+  },
+  "cell phone": {
+    "hi": "मोबाइल फोन",
+    "te": "మొబైల్ ఫోన్",
+    "kn": "ಮೊಬೈಲ್ ಫೋನ್",
+    "de": "Handy",
+    "es": "teléfono móvil"
+  },
+  "microwave": {
+    "hi": "माइक्रोवेव",
+    "te": "మైక్రోవేవ్",
+    "kn": "ಮೈಕ್ರೊವೇವ್",
+    "de": "Mikrowelle",
+    "es": "microondas"
+  },
+  "oven": {
+    "hi": "ओवन",
+    "te": "ఓవెన్",
+    "kn": "ಒವನ್",
+    "de": "Backofen",
+    "es": "horno"
+  },
+  "toaster": {
+    "hi": "टोस्टर",
+    "te": "టోస్టర్",
+    "kn": "ಟೋಸ್ಟರ್",
+    "de": "Toaster",
+    "es": "tostadora"
+  },
+  "sink": {
+    "hi": "सिंक",
+    "te": "సింక్",
+    "kn": "ಸಿಂಕ್",
+    "de": "Spüle",
+    "es": "fregadero"
+  },
+  "refrigerator": {
+    "hi": "फ्रिज",
+    "te": "ఫ్రిడ్జ్",
+    "kn": "ಫ್ರಿಜ್",
+    "de": "Kühlschrank",
+    "es": "refrigerador"
+  },
+  "book": {
+    "hi": "किताब",
+    "te": "పుస్తకం",
+    "kn": "ಪುಸ್ತಕ",
+    "de": "Buch",
+    "es": "libro"
+  },
+  "clock": {
+    "hi": "घड़ी",
+    "te": "గడియారం",
+    "kn": "ಗಡಿಯಾರ",
+    "de": "Uhr",
+    "es": "reloj"
+  },
+  "vase": {
+    "hi": "फूलदान",
+    "te": "ఫలవాసం",
+    "kn": "ಹೂವಿನ ಕುಂಭ",
+    "de": "Vase",
+    "es": "jarrón"
+  },
+  "scissors": {
+    "hi": "कैंची",
+    "te": "కత్తెర",
+    "kn": "ಕತ್ತರಿಸು",
+    "de": "Schere",
+    "es": "tijeras"
+  },
+  "teddy bear": {
+    "hi": "टेडी बियर",
+    "te": "టెడ్డీ బేర్",
+    "kn": "ಟೆಡ್ಡಿ ಎಲೆ",
+    "de": "Teddybär",
+    "es": "oso de peluche"
+  },
+  "hair drier": {
+    "hi": "हेयर ड्रायर",
+    "te": "జుట్టు డ్రయ్యర్",
+    "kn": "ಕುಟುಂಬದ ಉರಿಯುವ ಯಂತ್ರ",
+    "de": "Haartrockner",
+    "es": "secador de pelo"
+  },
+  "toothbrush": {
+    "hi": "टूथब्रश",
+    "te": "పళ్లు తుడిచే దంతం",
+    "kn": "ಹಲ್ಲು ತೊಳೆಯುವ ಥಿಂಗ್",
+    "de": "Zahnbürste",
+    "es": "cepillo de dientes"
+  }
+}
